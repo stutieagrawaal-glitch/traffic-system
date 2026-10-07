@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Three intersections -->
+    <node id="A" x="0" y="0" type="traffic_light"/>
+    <node id="B" x="500" y="0" type="traffic_light"/>
+    <node id="C" x="1000" y="0" type="traffic_light"/>
+
+    <!-- Outer road nodes -->
+    <node id="W" x="-500" y="0"/>
+    <node id="E" x="1500" y="0"/>
+
+    <!-- North/South approach nodes -->
+    <node id="A_N" x="0" y="500"/>
+    <node id="A_S" x="0" y="-500"/>
+    <node id="B_N" x="500" y="500"/>
+    <node id="B_S" x="500" y="-500"/>
+    <node id="C_N" x="1000" y="500"/>
+    <node id="C_S" x="1000" y="-500"/>
+</nodes>

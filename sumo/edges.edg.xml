@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Main corridor -->
+    <edge id="W_A" from="W" to="A" numLanes="1" speed="13.89"/>
+    <edge id="A_W" from="A" to="W" numLanes="1" speed="13.89"/>
+    <edge id="A_B" from="A" to="B" numLanes="1" speed="13.89"/>
+    <edge id="B_A" from="B" to="A" numLanes="1" speed="13.89"/>
+    <edge id="B_C" from="B" to="C" numLanes="1" speed="13.89"/>
+    <edge id="C_B" from="C" to="B" numLanes="1" speed="13.89"/>
+    <edge id="C_E" from="C" to="E" numLanes="1" speed="13.89"/>
+    <edge id="E_C" from="E" to="C" numLanes="1" speed="13.89"/>
+
+    <!-- Intersection A approaches -->
+    <edge id="A_N_to_A" from="A_N" to="A" numLanes="1" speed="13.89"/>
+    <edge id="A_to_A_N" from="A" to="A_N" numLanes="1" speed="13.89"/>
+    <edge id="A_S_to_A" from="A_S" to="A" numLanes="1" speed="13.89"/>
+    <edge id="A_to_A_S" from="A" to="A_S" numLanes="1" speed="13.89"/>
+
+    <!-- Intersection B approaches -->
+    <edge id="B_N_to_B" from="B_N" to="B" numLanes="1" speed="13.89"/>
+    <edge id="B_to_B_N" from="B" to="B_N" numLanes="1" speed="13.89"/>
+    <edge id="B_S_to_B" from="B_S" to="B" numLanes="1" speed="13.89"/>
+    <edge id="B_to_B_S" from="B" to="B_S" numLanes="1" speed="13.89"/>
+
+    <!-- Intersection C approaches -->
+    <edge id="C_N_to_C" from="C_N" to="C" numLanes="1" speed="13.89"/>
+    <edge id="C_to_C_N" from="C" to="C_N" numLanes="1" speed="13.89"/>
+    <edge id="C_S_to_C" from="C_S" to="C" numLanes="1" speed="13.89"/>
+    <edge id="C_to_C_S" from="C" to="C_S" numLanes="1" speed="13.89"/>
+</edges>

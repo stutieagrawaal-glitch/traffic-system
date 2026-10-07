@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="13.89"/>
+
+    <!-- Through traffic along the corridor -->
+    <route id="W_E" edges="W_A A_B B_C C_E"/>
+    <route id="E_W" edges="E_C C_B B_A A_W"/>
+
+    <!-- Cross traffic at A -->
+    <route id="A_N_S" edges="A_N_to_A A_to_A_S"/>
+    <route id="A_S_N" edges="A_S_to_A A_to_A_N"/>
+
+    <!-- Cross traffic at B -->
+    <route id="B_N_S" edges="B_N_to_B B_to_B_S"/>
+    <route id="B_S_N" edges="B_S_to_B B_to_B_N"/>
+
+    <!-- Cross traffic at C -->
+    <route id="C_N_S" edges="C_N_to_C C_to_C_S"/>
+    <route id="C_S_N" edges="C_S_to_C C_to_C_N"/>
+
+    <!-- Uneven traffic demand -->
+    <flow id="flow_W_E" type="car" route="W_E" begin="0" end="1800" period="4"/>
+    <flow id="flow_E_W" type="car" route="E_W" begin="0" end="1800" period="7"/>
+
+    <flow id="flow_A_NS" type="car" route="A_N_S" begin="0" end="1800" period="10"/>
+    <flow id="flow_A_SN" type="car" route="A_S_N" begin="0" end="1800" period="13"/>
+
+    <flow id="flow_B_NS" type="car" route="B_N_S" begin="0" end="1800" period="8"/>
+    <flow id="flow_B_SN" type="car" route="B_S_N" begin="0" end="1800" period="12"/>
+
+    <flow id="flow_C_NS" type="car" route="C_N_S" begin="0" end="1800" period="11"/>
+    <flow id="flow_C_SN" type="car" route="C_S_N" begin="0" end="1800" period="14"/>
+</routes>
